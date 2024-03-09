@@ -20,3 +20,16 @@ while True:
                 break
             elif jugador == 21 or (jugador > dealer and jugador < 21):
                 print('Gano el jugador')
+                juego.append('jugador')
+                break
+            else:
+                print('Gano el dealer')
+                juego.append('dealer')
+                break
+    preguntar_si_salir = input('Desea terminar el juego? S/N ')
+    if preguntar_si_salir == 'S':
+        print('Adios, gracias por dejar el diner!!!!')
+        break
+    else:
+        print('\n'*20)
+print(juego)                
