@@ -1,1 +1,0 @@
-# Mi aplicación de back
